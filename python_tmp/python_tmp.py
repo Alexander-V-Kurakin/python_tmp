@@ -1,14 +1,14 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import sys
 
-print 'Hello, Python!'
+print ('Hello, Python!')
 
-print 'Number of arguments:', len(sys.argv), 'arguments'
-print 'Arguments list:', str(sys.argv)
+print ('Number of arguments:', len(sys.argv), 'arguments')
+print ('Arguments list:', str(sys.argv))
 
-str = raw_input("\nInput a string and press enter to exit ")
-print str
+str = input('\nInput a string and press enter to exit ')
+print (str)
 
 
 # The output is
@@ -36,4 +36,3 @@ print str
 #
 # Input a string and press enter to exit str1 str2 str3 str_n
 # str1 str2 str3 str_n
-

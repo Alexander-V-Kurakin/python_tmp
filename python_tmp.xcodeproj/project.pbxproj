@@ -27,8 +27,8 @@
 			buildConfigurationList = A08CE44B1D914AD1000BDE5B /* Build configuration list for PBXLegacyTarget "python_tmp" */;
 			buildPhases = (
 			);
-			buildToolPath = /usr/bin/python;
-			buildWorkingDirectory = "";
+			buildToolPath = /Library/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python;
+			buildWorkingDirectory = "/Users/MUC_Mercury/My Documents/etc/xcode_tmp/python_tmp/python_tmp";
 			dependencies = (
 			);
 			name = python_tmp;
@@ -55,6 +55,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = A08CE4431D914AD1000BDE5B;
